@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Arturo', function () {
+Route::get('/formulario', function () {
     return view('formulario');
 });
