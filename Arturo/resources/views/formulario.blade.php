@@ -74,7 +74,8 @@ a:hover
 <body>
     <div class="signin">
 
-        <form action="#" method="POST">
+        <form action="" method="POST">
+        @csrf
         <h2 style="color:#fff;">Log In</h2>
         <input type="text" name="username" placeholder="Username"/><br /><br />
         <input type="password" name="password" placeholder="Password" /><br /><br />
